@@ -1,0 +1,31 @@
+.header-container {
+  min-height: 10vh;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.nav-logo-image {
+  height: 30px;
+}
+.header-elements {
+  display: flex;
+}
+.element {
+  list-style-type: none;
+  margin: 10px;
+}
+.profile {
+  height: 30px;
+}
+.log-out-button {
+  background-color: transparent;
+  padding: 8px;
+  color: #3b82f6;
+  font-weight: 600;
+  border: 2px solid #3b82f6;
+  border-radius: 4px;
+  cursor: pointer;
+}
